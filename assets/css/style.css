@@ -175,12 +175,18 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 17px 0;
-  background-color: #1150b4;
+  background-color: rgba(17, 80, 180, 0.96);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);    
   /* box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1); */
 }
 
 .header.header-scrolled {
-  background-color: #1150C4;
+  background-color: #1150C4;  
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);  
   color: #111 !important;
   padding: 15px 0;
   /* box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1); */
@@ -346,7 +352,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -553,8 +559,9 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
-  padding: 40px;
+  background-color: #f3f6ff;
+  border-radius: 0.25rem;
+  padding: 30px;
 }
 
 .about h3 {
@@ -2408,4 +2415,36 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+/*==============================================================
+ --------------------------------------------------------------
+# List Groups
+-------------------------------------------------------------- */
+.list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-group-item {
+  padding: 10px 15px;
+  border: 1px solid #e1ecff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.list-group-item:hover {
+  background: #f6f9ff;
+}
+
+.list-group-item.active {
+  background: #4154f1;
+  color: #fff;
+}
+
+.list-group-item.active:hover {
+  background: #5969f3;
 }
