@@ -269,17 +269,19 @@ section {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
-  padding: 8px 20px;
+  background: #fff000;
+  padding: 12px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #000;
+  box-shadow: 0px 0px 6px rgba(100, 100, 100, 0.70);
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #5969f3;
+  color: #000;
+  background: #fff000;
+  scale: 1.05;
 }
 
 .navbar .dropdown ul {
@@ -421,6 +423,7 @@ section {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
+  scale: 1.1;
 }
 
 .navbar-mobile .dropdown ul {
@@ -560,7 +563,7 @@ section {
 --------------------------------------------------------------*/
 .about .content {
   background-color: #f3f6ff;
-  border-radius: 0.25rem;
+  border-radius: 0.45rem;
   padding: 30px;
 }
 
@@ -2437,6 +2440,10 @@ section {
 }
 
 .list-group-item:hover {
+  scale: 1.02;
+}
+
+/* .list-group-item:hover {
   background: #f6f9ff;
 }
 
@@ -2447,4 +2454,4 @@ section {
 
 .list-group-item.active:hover {
   background: #5969f3;
-}
+} */
