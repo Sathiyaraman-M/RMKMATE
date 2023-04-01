@@ -2244,8 +2244,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
-  padding: 0 0 30px 0;
+  background: #d6d9ff;
+  padding: 0 0 20px 0;
   font-size: 14px;
 }
 
@@ -2409,7 +2409,7 @@ section {
 
 .footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   color: #012970;
 }
 
